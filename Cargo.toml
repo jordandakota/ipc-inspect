@@ -1,0 +1,7 @@
+[package]
+name = "ipc-inspect"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arrow = { version = "55", features = ["ipc", "ipc_compression"] }
